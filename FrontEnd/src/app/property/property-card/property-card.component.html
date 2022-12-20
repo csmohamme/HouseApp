@@ -1,1 +1,23 @@
-<p>property-card works!</p>
+<div class="card">
+  <div class="card-img-wrapper text-center">
+    <img class="card-img-top" src="assets/images/house-clipart.jpg" alt="" />
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+        <button class="btn btn-primary">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary">
+          <i class="fa-regular fa-address-card"></i>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body p-2">
+    <h1>{{ property.Id }}</h1>
+    <h1>{{ property.Name }}</h1>
+    <h1>{{ property.Type }}</h1>
+    <h1>{{ property.Price }}</h1>
+  </div>
+</div>
